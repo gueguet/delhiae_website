@@ -124,9 +124,14 @@ a {
 
 
 .back {
-    position: absolute;
-    top: 0;
-    left: 0;
+    position: fixed;
+    top: 20vmin;
+    left: 2vw;
+}
+
+.back a {
+  color: red;
+  font-size: 2vmin;
 }
 
 .dull-day {
@@ -137,14 +142,12 @@ a {
     flex-direction: column;
     justify-content: center;
     margin: 0 auto;
-    border: 1px solid blue;
 }
 
 
 .dull-day .post-subtitle {
-    font-size: 8vmin;
+    font-size: 5vmin;
     color: black;
-    border: 1px solid yellow;
     font-family: 'Open Sans Condensed', sans-serif;
     
     color: black;
@@ -153,7 +156,7 @@ a {
 }
 
 .dull-day .post-title {
-    font-size: 15vmin;
+    font-size: 12vmin;
     font-weight: bolder;
     color: black;
     letter-spacing: 0.05vmin;
@@ -161,19 +164,23 @@ a {
 
 #style-red {
     background: #ff0000;
-    width: 20px;
-    height: 10px;
+    width: 40%;
+    height: 4.5vh;
+    color: white;
 }
 
-.dull-day br {
-    display: block;
-    margin: -8vh 0;
-    content: "";
- }
 
 .main-container {
-    border: 1px solid green;
     margin: 10vh auto;
+}
+
+.post-image {
+  width: 60vmin;
+  margin-left: 5vmin;
+}
+
+.post-image img {
+  width: 100%;
 }
 
 .post-row {
@@ -181,6 +188,15 @@ a {
     flex-direction: row;
 }
 
-.video-ctn {
-    margin-left: 35vmin;
+.dull-day .video-ctn {
+    width: 60vmin;
+    height: 30vmin;
+    margin-left: 15vmin;
+    margin-top: 2vh;
 }
+
+iframe {
+  width: 100%;
+  height: 100%;
+}
+
