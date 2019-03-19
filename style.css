@@ -153,6 +153,18 @@ a {
 }
 
 
+/* -------------------- COMMON -------------------- */
+
+
+#style-red {
+  background: #ff0000;
+  width: 40%;
+  height: 4vh;
+  color: white;
+  font-size: 4vmin;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 100;
+}
 
 /* -------------------- DULL DAY -------------------- */
 
@@ -183,10 +195,7 @@ a {
     font-size: 5vmin;
     color: black;
     font-family: 'Open Sans Condensed', sans-serif;
-    
-    color: black;
     font-weight: 100;
-
 }
 
 .dull-day .post-title {
@@ -194,13 +203,6 @@ a {
     font-weight: bolder;
     color: black;
     letter-spacing: 0.05vmin;
-}
-
-#style-red {
-    background: #ff0000;
-    width: 40%;
-    height: 4.5vh;
-    color: white;
 }
 
 
@@ -354,8 +356,6 @@ font-size: 2vmin;
   font-size: 5vmin;
   color: black;
   font-family: 'Open Sans Condensed', sans-serif;
-  
-  color: black;
   font-weight: 100;
 
 }
@@ -365,13 +365,6 @@ font-size: 2vmin;
   font-weight: bolder;
   color: black;
   letter-spacing: 0.05vmin;
-}
-
-#style-red {
-  background: #ff0000;
-  width: 40%;
-  height: 4.5vh;
-  color: white;
 }
 
 
@@ -446,8 +439,6 @@ font-size: 2vmin;
   font-size: 5vmin;
   color: black;
   font-family: 'Open Sans Condensed', sans-serif;
-  
-  color: black;
   font-weight: 100;
 
 }
@@ -459,12 +450,6 @@ font-size: 2vmin;
   letter-spacing: 0.05vmin;
 }
 
-.mauvais-boy #style-red {
-  background: #ff0000;
-  width: 40%;
-  height: 4.5vh;
-  color: white;
-}
 
 
 .mauvais-boy .main-container {
@@ -497,5 +482,224 @@ iframe {
 width: 100%;
 height: 100%;
 }
+
+
+/* -------------------- CHOOSE YOUR CHARACTER -------------------- */
+
+
+.back {
+  position: fixed;
+  top: 20vmin;
+  left: 2vw;
+}
+
+.back a {
+color: red;
+font-size: 2vmin;
+}
+
+.character {
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+
+.character .post-subtitle {
+  font-size: 5vmin;
+  color: black;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 100;
+}
+
+.character .post-title {
+  font-size: 10vmin;
+  font-weight: bolder;
+  color: black;
+  letter-spacing: 0.05vmin;
+}
+
+
+
+
+.character .main-container {
+  margin: 10vh auto;
+}
+
+
+.character .legends-ctn {
+  color: black;
+  width: 80%;
+  margin-left: 20%;
+  font-size: 2vmin;
+}
+
+.character .post-image {
+  display: flex;
+  flex-direction: column;
+  width: 40vmin;
+  margin-left: 5vmin;
+}
+
+.character .post-image img {
+  width: 100%;
+}
+
+.character .post-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.character .video-ctn {
+  width: 60vmin;
+  height: 30vmin;
+  margin-left: 15vmin;
+  margin-top: 2vh;
+}
+
+
+/* -------------------- MUSEE -------------------- */
+
+
+.back {
+  position: fixed;
+  top: 20vmin;
+  left: 2vw;
+}
+
+.back a {
+  color: red;
+  font-size: 2vmin;
+}
+
+
+.musee {
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+
+.musee .post-subtitle {
+  font-size: 5vmin;
+  color: black;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 100;
+
+}
+
+.musee .post-title {
+  font-size: 8vmin;
+  font-weight: bolder;
+  color: black;
+  letter-spacing: 0.05vmin;
+}
+
+
+
+.musee .main-container {
+  margin: 10vh auto;
+}
+
+.musee .post-image {
+  width: 30vmin;
+  margin-left: 5vmin;
+}
+
+.musee .post-image img {
+  width: 100%;
+}
+
+.musee .post-row {
+  margin-right: 10vmin;
+  display: flex;
+  flex-direction: row;
+}
+
+.musee .video-ctn {
+  width: 60vmin;
+  height: 30vmin;
+  margin-left: 10vmin;
+  margin-top: 5vh;
+}
+
+
+/* -------------------- MVGC -------------------- */
+
+
+.back {
+  position: fixed;
+  top: 20vmin;
+  left: 2vw;
+}
+
+.back a {
+  color: red;
+  font-size: 2vmin;
+}
+
+
+.MVGC {
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+
+.MVGC .post-subtitle {
+  font-size: 5vmin;
+  color: black;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 100;
+
+}
+
+.MVGC .post-title {
+  font-size: 8vmin;
+  font-weight: bolder;
+  color: black;
+  letter-spacing: 0.05vmin;
+}
+
+
+
+.MVGC .main-container {
+  margin: 10vh auto;
+}
+
+.MVGC .post-image {
+  width: 30vmin;
+  margin-left: 5vmin;
+}
+
+.MVGC .post-image img {
+  width: 100%;
+}
+
+.MVGC .post-row {
+  margin-right: 10vmin;
+  display: flex;
+  flex-direction: row;
+}
+
+.MVGC .video-ctn {
+  width: 60vmin;
+  height: 30vmin;
+  margin-left: 10vmin;
+  margin-top: 5vh;
+}
+
 
 
