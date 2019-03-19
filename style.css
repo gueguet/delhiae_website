@@ -94,14 +94,14 @@ a {
     width: 100%;
     height: 100%;
     transition: filter .5s ease-in-out;
-    -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
-    filter: grayscale(0%); /* FF 35+ */
+    -webkit-filter: grayscale(0%); 
+    filter: grayscale(0%); 
 
 }
 
 .item  img:hover {
-    -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
-    filter: grayscale(100%); /* FF 35+ */
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%); 
   }
 
 
@@ -124,7 +124,7 @@ a {
   background-color: white;
   margin: 0;
   position: absolute;
-  display: flex;
+  display: none;
   flex-direction: column;
   z-index: 1;
   align-items: center;  
@@ -227,3 +227,91 @@ iframe {
   height: 100%;
 }
 
+
+/* -------------------- BIO -------------------- */
+
+
+.bio {
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  display: flex;
+}
+
+.bio .main-container {
+  position: relative;
+  margin: auto;
+  width: 90%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20vw; 
+  
+}
+
+
+
+.bio .row {
+  position: relative;
+  top: 8vh;
+  left: 0;
+}
+
+.bio .style-red {
+  font-size: 2vmin;
+  background: #ff0000;
+  width: 20%;
+  color: white;
+}
+
+.bio .main-title {
+  position: relative;
+  font-size: 6vmin;
+  color: black;
+  z-index: 1;
+}
+
+.bio .main-pic {
+  position: absolute;
+  top: 5%;
+  left: 25%;
+  z-index: -1;
+}
+
+.bio .main-pic img {
+  width: 30vw;
+}
+
+.bio .bio-legend {
+  width: 30vw;
+  color: black;
+  font-size: 2vmin;
+  font-weight: 300;
+}
+
+#red-text {
+  color: red;
+}
+
+.bio .two-col {
+  display: flex;
+  flex-direction: row;
+  width: 30vw;
+  justify-content: space-between;
+  margin-top: 5vh;
+  margin-bottom: 10vh;
+  font-size: 2vmin;
+}
+
+.bio .first-col {
+  width: 45%;
+}
+
+.bio .second-col {
+  width: 45%;
+}
+
+.bio #title-desc {
+  color: black;
+  font-size: 2vmin;
+}
