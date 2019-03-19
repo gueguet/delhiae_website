@@ -90,13 +90,20 @@ a {
   }
 
 
+
+.container img {
+  width: 100%;
+  height: 100%;
+}
+
+
+
 .item img {
     width: 100%;
     height: 100%;
     transition: filter .5s ease-in-out;
     -webkit-filter: grayscale(0%); 
     filter: grayscale(0%); 
-
 }
 
 .item  img:hover {
@@ -268,7 +275,7 @@ iframe {
   position: relative;
   font-size: 6vmin;
   color: black;
-  z-index: 1;
+  z-index: 0;
 }
 
 .bio .main-pic {
@@ -315,3 +322,180 @@ iframe {
   color: black;
   font-size: 2vmin;
 }
+
+
+
+/* -------------------- DO NOT TOUCHE ME -------------------- */
+
+
+.back {
+  position: fixed;
+  top: 20vmin;
+  left: 2vw;
+}
+
+.back a {
+color: red;
+font-size: 2vmin;
+}
+
+.do-not-touch-me {
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+
+.do-not-touch-me .post-subtitle {
+  font-size: 5vmin;
+  color: black;
+  font-family: 'Open Sans Condensed', sans-serif;
+  
+  color: black;
+  font-weight: 100;
+
+}
+
+.do-not-touch-me .post-title {
+  font-size: 12vmin;
+  font-weight: bolder;
+  color: black;
+  letter-spacing: 0.05vmin;
+}
+
+#style-red {
+  background: #ff0000;
+  width: 40%;
+  height: 4.5vh;
+  color: white;
+}
+
+
+.do-not-touch-me .main-container {
+  margin: 10vh auto;
+}
+
+
+.do-not-touch-me .legends-ctn {
+  color: black;
+  width: 50%;
+  margin-left: 50%;
+  font-size: 2vmin;
+}
+
+.post-image {
+  display: flex;
+  flex-direction: column;
+  width: 60vmin;
+  margin-left: 5vmin;
+}
+
+.post-image img {
+width: 100%;
+}
+
+.post-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.dull-day .video-ctn {
+  width: 60vmin;
+  height: 30vmin;
+  margin-left: 15vmin;
+  margin-top: 2vh;
+}
+
+iframe {
+width: 100%;
+height: 100%;
+}
+
+
+/* -------------------- MAUVAIS BOY -------------------- */
+
+
+.back {
+  position: fixed;
+  top: 20vmin;
+  left: 2vw;
+}
+
+.back a {
+color: red;
+font-size: 2vmin;
+}
+
+
+.mauvais-boy {
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+
+.mauvais-boy .post-subtitle {
+  font-size: 5vmin;
+  color: black;
+  font-family: 'Open Sans Condensed', sans-serif;
+  
+  color: black;
+  font-weight: 100;
+
+}
+
+.mauvais-boy .post-title {
+  font-size: 12vmin;
+  font-weight: bolder;
+  color: black;
+  letter-spacing: 0.05vmin;
+}
+
+.mauvais-boy #style-red {
+  background: #ff0000;
+  width: 40%;
+  height: 4.5vh;
+  color: white;
+}
+
+
+.mauvais-boy .main-container {
+  margin: 10vh auto;
+}
+
+.mauvais-boy .post-image {
+width: 25vmin;
+margin-left: 5vmin;
+}
+
+.mauvais-boy .post-image img {
+  width: 100%;
+}
+
+.post-row {
+  margin-right: 10vmin;
+  display: flex;
+  flex-direction: row;
+}
+
+.mauvais-boy .video-ctn {
+  width: 60vmin;
+  height: 30vmin;
+  margin-left: 15vmin;
+  margin-top: 2vh;
+}
+
+iframe {
+width: 100%;
+height: 100%;
+}
+
+
