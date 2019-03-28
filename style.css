@@ -30,10 +30,21 @@ a {
     color: rgb(63, 63, 63);
 }
 
+.logo {
+
+}
+
+.logo img {
+  width: 30%;
+  height: auto;
+  margin: auto;
+}
 
 .title {
-    color: #ff0000;
-    font-size: 4vmin;
+  display: flex;
+  flex-direction: row;
+  color: #ff0000;
+  font-size: 4vmin;
 }
 
 .title a {
@@ -699,6 +710,40 @@ font-size: 2vmin;
   height: 30vmin;
   margin-left: 10vmin;
   margin-top: 5vh;
+}
+
+.MVGC .clothing-ctn {
+  position: relative;
+}
+
+.MVGC .post-image {
+  position: absolute;
+}
+
+#cloth-one {
+  right: 0;
+  top: 0;
+  margin-bottom: 25vh;
+}
+
+#cloth-two {
+  right: 40%;
+  top: 10vh;
+}
+
+#cloth-three {
+  right: -55%;
+  top: 10vh;
+}
+
+#cloth-four {
+  left: -60%;
+  top: 10vh;
+}
+
+#cloth-five {
+  left: -25%;
+  top: 5vh;
 }
 
 
