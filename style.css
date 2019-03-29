@@ -30,10 +30,13 @@ a {
     color: rgb(63, 63, 63);
 }
 
+.logo {
+  width: 25%;
+}
 
 .logo img {
-  width: auto;
-  height: auto;
+  width: 100%;
+  height: 100%;
   margin: auto;
 }
 
@@ -60,9 +63,6 @@ a {
 
 
 /* -------------------- ALBUM -------------------- */
-
-
-
 
 
 .container{
@@ -108,16 +108,22 @@ a {
 
 
 
-.container img {
-  width: 100%;
-  height: 100%;
+.item {
+  border: solid red;
+  width:auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  
 }
 
 
 
 .item img {
-    width: 100%;
-    height: 100%;
+    height: auto;
+    margin: auto;
     transition: filter .5s ease-in-out;
     -webkit-filter: grayscale(0%); 
     filter: grayscale(0%); 
