@@ -1216,3 +1216,197 @@ font-size: 2vmin;
   width: 80%;
   font-size: 2vmin;
 }
+
+
+/* -------------------- Lafayette -------------------- */
+
+
+.back {
+  position: fixed;
+  top: 20vmin;
+  left: 2vw;
+}
+
+.back a {
+  color: red;
+  font-size: 2vmin;
+}
+
+
+.Laf {
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+
+.Laf .post-subtitle {
+  font-size: 5vmin;
+  color: black;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 100;
+
+}
+
+.Laf .post-title {
+  font-size: 8vmin;
+  font-weight: bolder;
+  color: black;
+  letter-spacing: 0.05vmin;
+}
+
+.Laf .main-container {
+  margin: 5vh auto;
+}
+
+.Laf .post-image {
+  width: 30vmin;
+  margin-left: 5vmin;
+}
+
+.Laf .post-image img {
+  width: 100%;
+}
+
+.Laf .post-row {
+  margin-right: 10vmin;
+  display: flex;
+  flex-direction: row;
+}
+
+.Laf .video-ctn {
+  width: 60vmin;
+  height: 30vmin;
+  margin-left: 10vmin;
+  margin-top: 5vh;
+}
+
+.Laf .laf-pics-ctn {
+  position: relative;
+}
+
+.Laf .post-image {
+  position: absolute;
+}
+
+.Laf .legends-ctn {
+  position: absolute;
+  right: 10%;
+  color: black;
+  width: 80%;
+  margin-left: 20%;
+  font-size: 2vmin;
+  bottom: 0;
+}
+
+#laf1 {
+  width: 20vw;
+  right: 30%;
+  top: 0;
+  margin-bottom: 25vh;
+}
+
+#laf2 {
+  width: 20vw;
+  left: 70%;
+  top: 15vh;
+  margin-bottom: 0;
+}
+
+#laf3 {
+  width: 20vw;
+  left: -80%;
+  top: 10vh;
+}
+
+
+
+/* -------------------- FESTIVAL -------------------- */
+
+
+.back {
+  position: fixed;
+  top: 20vmin;
+  left: 2vw;
+}
+
+.back a {
+  color: red;
+  font-size: 2vmin;
+}
+
+
+.festival {
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  margin-left: 20vw;
+}
+
+
+.festival .post-subtitle {
+  font-size: 5vmin;
+  color: black;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 100;
+
+}
+
+.festival .post-title {
+  font-size: 8vmin;
+  font-weight: bolder;
+  color: black;
+  letter-spacing: 0.05vmin;
+}
+
+
+
+.festival .main-container {
+  margin: 10vh auto;
+}
+
+.festival .post-image {
+  width: 30vmin;
+  margin-left: 5vmin;
+}
+
+.festival .post-image img {
+  width: 100%;
+}
+
+.festival .post-row {
+  margin-right: 10vmin;
+  display: flex;
+  flex-direction: row;
+}
+
+.festival .img-festival-ctn {
+  width: 50%;
+  margin-top: 10vh;
+
+
+}
+
+.festival .img-festival-ctn img {
+  width: 100%;  
+
+}
+
+.festival .legends {
+  position: absolute;
+  right: 10%;
+  color: black;
+  width: 80%;
+  margin-left: 20%;
+  font-size: 2vmin;
+  bottom: 0;
+}
+
