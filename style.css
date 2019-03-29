@@ -12,7 +12,7 @@ nav {
     color: #F1F1F1F1;
     display: flex;
     flex-direction: row;
-    align-items: baseline;
+    align-items: center;
     justify-content: space-between;
     margin-left: 2vw;
     margin-right: 2vw;
@@ -30,12 +30,9 @@ a {
     color: rgb(63, 63, 63);
 }
 
-.logo {
-
-}
 
 .logo img {
-  width: 30%;
+  width: auto;
   height: auto;
   margin: auto;
 }
@@ -49,6 +46,15 @@ a {
 
 .title a {
     color: #ff0000;
+}
+
+
+.item .legends {
+  font-size: 1.5vw;
+}
+
+.item img {
+  max-height: 30vh;
 }
 
 
@@ -950,6 +956,263 @@ font-size: 2vmin;
 }
 
 
+/* -------------------- SHOWROOM -------------------- */
+
+
+.back {
+  position: fixed;
+  top: 20vmin;
+  left: 2vw;
+}
+
+.back a {
+  color: red;
+  font-size: 2vmin;
+}
+
+
+.showacces {
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+
+.showacces .post-subtitle {
+  font-size: 5vmin;
+  color: black;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 100;
+
+}
+
+.showacces .post-title {
+  font-size: 12vmin;
+  font-weight: bolder;
+  color: black;
+  letter-spacing: 0.05vmin;
+}
+
+.showacces .main-container {
+  margin: 10vh auto;
+}
+
+.showacces .post-image {
+  width: 25vmin;
+  margin-left: 5vmin;
+}
+
+.showacces .post-image img {
+  width: 100%;
+}
+
+.post-row {
+  margin-right: 10vmin;
+  display: flex;
+  flex-direction: row;
+}
+
+.showacces .main-image-ctn {
+  width: 40vw;
+  margin-left: 0vmin;
+  margin-top: 2vh;
+}
+
+.showacces .main-image-ctn img {
+  width: 100%;
+}
+
+.showacces .legends-ctn {
+  color: black;
+  width: 80%;
+  margin-left: 20%;
+  font-size: 2vmin;
+}
+
+
+/* -------------------- WWF -------------------- */
+
+
+.back {
+  position: fixed;
+  top: 20vmin;
+  left: 2vw;
+}
+
+.back a {
+  color: red;
+  font-size: 2vmin;
+}
+
+
+.WWF {
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+
+.WWF .post-subtitle {
+  font-size: 5vmin;
+  color: black;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 100;
+
+}
+
+.WWF .post-title {
+  font-size: 8vmin;
+  font-weight: bolder;
+  color: black;
+  letter-spacing: 0.05vmin;
+}
 
 
 
+.WWF .main-container {
+  margin: 10vh auto;
+}
+
+.WWF .post-image {
+  width: 30vmin;
+  margin-left: 5vmin;
+}
+
+.WWF .post-image img {
+  width: 100%;
+}
+
+.WWF .post-row {
+  margin-right: 10vmin;
+  display: flex;
+  flex-direction: row;
+}
+
+.WWF .video-ctn {
+  width: 60vmin;
+  height: 30vmin;
+  margin-left: 10vmin;
+  margin-top: 5vh;
+}
+
+.WWF .animaux-ctn {
+  position: relative;
+}
+
+.WWF .post-image {
+  position: absolute;
+}
+
+#moutonimg {
+  right: 30%;
+  top: 0;
+  margin-bottom: 25vh;
+}
+
+#serpentimg {
+  left: 70%;
+  top: 15vh;
+  margin-bottom: 0;
+}
+
+#leopardimg {
+  left: -40%;
+  top: 10vh;
+}
+
+.WWF .legends-ctn {
+  position: absolute;
+  right: 10%;
+  color: black;
+  width: 80%;
+  margin-left: 20%;
+  font-size: 2vmin;
+}
+
+
+/* -------------------- MEET ME -------------------- */
+
+
+.back {
+  position: fixed;
+  top: 20vmin;
+  left: 2vw;
+}
+
+.back a {
+  color: red;
+  font-size: 2vmin;
+}
+
+
+.meetme {
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+
+.meetme .post-subtitle {
+  font-size: 5vmin;
+  color: black;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 100;
+
+}
+
+.meetme .post-title {
+  font-size: 8vmin;
+  font-weight: bolder;
+  color: black;
+  letter-spacing: 0.05vmin;
+}
+
+
+
+.meetme .main-container {
+  margin: 10vh auto;
+}
+
+.meetme .post-image {
+  width: 30vmin;
+  margin-left: 5vmin;
+}
+
+.meetme .post-image img {
+  width: 100%;
+}
+
+.meetme .post-row {
+  margin-right: 10vmin;
+  display: flex;
+  flex-direction: row;
+}
+
+.meetme .video-ctn {
+  width: 80vmin;
+  height: 40vmin;
+  margin-left: 10vmin;
+  margin-top: 5vh;
+}
+
+
+.meetme .legends-ctn {
+  position: absolute;
+  left: 40%;
+  bottom: 0%;
+  color: black;
+  width: 80%;
+  font-size: 2vmin;
+}
