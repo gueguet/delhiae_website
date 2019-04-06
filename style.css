@@ -306,6 +306,16 @@ iframe {
   color: white;
 }
 
+#style-full-red {
+  font-size: 2vmin;
+  background: #ff0000;
+  width: 60%;
+  color: white;
+  font-size: 4vmin;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 100;
+}
+
 .bio .main-title {
   position: relative;
   font-size: 6vmin;
