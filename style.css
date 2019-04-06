@@ -1136,20 +1136,23 @@ font-size: 2vmin;
 }
 
 #moutonimg {
-  right: 30%;
+  right: 15%;
   top: 0;
   margin-bottom: 25vh;
+  width: 25vw;
 }
 
 #serpentimg {
   left: 70%;
   top: 15vh;
   margin-bottom: 0;
+  width: 25vw;
 }
 
 #leopardimg {
-  left: -40%;
+  left: -50%;
   top: 10vh;
+  width: 25vw;
 }
 
 .WWF .legends-ctn {
