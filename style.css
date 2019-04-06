@@ -56,9 +56,6 @@ a {
   font-size: 1.5vw;
 }
 
-.item img {
-  max-height: 30vh;
-}
 
 
 
@@ -111,20 +108,36 @@ a {
 
 
 
-.container img {
+
+
+.item {
+}
+
+.item a {
   width: 100%;
   height: 100%;
 }
 
-
-
-.item img {
-    width: 100%;
-    height: 100%;
-    transition: filter .5s ease-in-out;
-    -webkit-filter: grayscale(0%); 
-    filter: grayscale(0%); 
+.item .home-cover {
+  height: 30vh;
 }
+
+
+
+
+
+.home-cover img {
+  transition: filter .5s ease-in-out;
+  -webkit-filter: grayscale(0%); 
+  filter: grayscale(0%); 
+  height: 100%;
+  object-fit: cover;
+  max-width: 50%;
+  margin: 0 auto;
+  display: block;
+  scale: initial;
+}
+
 
 .item  img:hover {
     -webkit-filter: grayscale(100%); 
